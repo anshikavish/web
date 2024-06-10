@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="file.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto mt-10">
+        <div class="flex justify-center">
+            <input 
+                type="text" 
+                id="search-bar" 
+                class="border border-gray-300 p-2 w-full max-w-xl rounded"
+                placeholder="Search for clothes..."
+            />
+        </div>
+        <div id="results" class="mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </div>
+</body>
+</html>
